@@ -84,6 +84,8 @@ document.querySelector(".tombol").addEventListener('click', function () {
             } else if (result.isDenied) {
               Swal.fire(`Yakin ga suka sama ${sender}?`, '', 'error').then(function () {
                 Swal.fire('Yaudah deh bye!')
+                  Swal.fire('Eh bentar bentar 1 lagi').then(function () {
+                            Swal.fire('Coba klik ikon hati di paling bawah dong :)))')
               })
             }
           })
